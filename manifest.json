@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Beezync Push Test",
+  "version": "1.0.0",
+  "description": "Prueba de Web Push de Beezync desde una extensión",
+  "permissions": ["notifications", "storage"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "Beezync Push Test" }
+}
