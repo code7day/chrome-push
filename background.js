@@ -56,8 +56,10 @@ self.addEventListener('push', (event) => {
     Promise.all([
       self.registration.showNotification(p.title || 'Notificación', {
         body: p.body || '',
-        data: { id: p.id, url: p.data && p.data.url },
-        tag: p.id,
+        image: p.image,
+        silent: p.silent === true,
+        data: { id: p.id, url: p.url || (p.data && p.data.url) },
+        tag: p.tag || p.id,
       }),
       track('received', p.id),
     ]),
