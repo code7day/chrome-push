@@ -17,6 +17,6 @@ El envío de prueba se hace con `send-push` y la llave secreta desde tu terminal
 - Las notificaciones usan el permiso `notifications` del manifiesto; no hay diálogo de permiso.
 - Safari no se prueba con una extensión: sus extensiones web no reciben Web Push. La prueba de Safari es la página `demos/web-push-test` servida por HTTPS (macOS 13 o superior).
 
-## Autoría y licencia
+## Licencia
 
-Beezync es un proyecto de Eduardo Flores. El servicio comercial de Beezync es respaldado y operado por ITM Soluciones Tecnológicas e Inversiones S.A.C. Licencia MIT (ver `LICENSE`).
+© 2026 Beezync. Licencia MIT (ver `LICENSE`).
